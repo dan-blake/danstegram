@@ -4,10 +4,37 @@ body {
 }
 ul li {
   display:flex;
-  justify-content: space-between;
+  float:right;
+  margin-left:30px;
   text-decoration:none;
   list-style-type: none;
 }
+ul li a {
+  margin-left:30px;
+}
+ul li a:hover {
+  color:red;
+}
+ul li a:visited {
+  color:blue;
+}
+.email {
+  margin-left:29px;
+}
+.section2 img {
+  margin-left:30px;
+}
+.section3 {
+  margin-top:60px;
+}
+a:visited {
+  color:blue;
+}
+input {
+  margin-bottom:20px;
+  text-align:center;
+}
+
 h1 {
   color:purple;
   font-weight:bold;
@@ -26,14 +53,14 @@ form {
 }
 .left {
   float:left;
-  margin-left:80px;
-  border-radius:125px;
-  width:575px;
+  margin-left:320px;
+  border-radius:55px;
+  width:405px;
   text-align:center;
     background-image:url("../images/apple-iphone8-gold-1-3x.jpg");
     background-size:cover;
     background-position:center;
-    height:1160px;
+    height:750px;
 }
 .left-title {
     height:40px;
@@ -45,6 +72,7 @@ form {
 }
 .right {
   border-style:solid;
+  margin-right:30px;
   border-width:1px;
   border-color:grey;
   float:right;
