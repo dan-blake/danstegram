@@ -1,6 +1,9 @@
 body {
-  background-image: linear-gradient(to left, #ada996, #F2F2F2,#DBDBDB,#EAEAEA);
-
+  background-image: linear-gradient(to left, #D2D8B3, #F2F2F2,#EFD09E,#D4AA7D);
+  padding:0;
+  margin-right:15px;
+  height:100%;
+  font-family: 'Oxygen', sans-serif;
 }
 ul li {
   display:flex;
@@ -11,33 +14,42 @@ ul li {
 }
 ul li a {
   margin-left:30px;
+  font-family: 'Indie Flower', cursive;
 }
 ul li a:hover {
   color:red;
 }
+
 ul li a:visited {
   color:blue;
 }
 .email {
-  margin-left:29px;
+  margin-left:35px;
 }
 .section2 img {
   margin-left:30px;
 }
 .section3 {
-  margin-top:60px;
+  margin-top:20px;
 }
 a:visited {
   color:blue;
 }
 input {
   margin-bottom:20px;
+  margin-left:15px;
   text-align:center;
 }
-
+.sign-up {
+  margin-left:50px;
+  font-family: 'Indie Flower', cursive;
+}
 h1 {
-  color:purple;
+  color:#272727;
   font-weight:bold;
+  font-family: 'Indie Flower', cursive;
+  margin-left:180px;
+  font-size:40px;
 }
 p {
   color:#2D3142;
@@ -89,4 +101,12 @@ form {
 }
 .footer {
   margin-top:20px;
+}
+html {
+
+  height:100%;
+}
+footer {
+  position: absolute;
+  bottom: -200px; left: 5px; right: 0;
 }
